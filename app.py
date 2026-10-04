@@ -109,7 +109,7 @@ raw_guess = st.text_input(
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    submit = st.menu_button("Submit Guess 🚀")
+    submit = st.button("Submit Guess 🚀")
 with col2:
     new_game = st.button("New Game 🔁")
 with col3:
